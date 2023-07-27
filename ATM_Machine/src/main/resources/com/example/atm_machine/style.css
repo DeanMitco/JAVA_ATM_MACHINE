@@ -1,0 +1,22 @@
+.button{
+    -fx-cursor: hand;
+}
+
+#btnLogin, #btnLogout, #SignUp_btnSignUp{
+    -fx-background-color: #590925;
+    -fx-text-fill: white;
+}
+
+#btnSignup, #SignUp_btnLogin{
+    -fx-background-color: transparent;
+    -fx-font-size: 15;
+    -fx-font-weight: Bold;
+    -fx-underline: true;
+    -fx-text-fill: blue;
+}
+
+#apLogin, #apView, #apSignup{
+    -fx-background-color: #78C0E0;
+}
+
+

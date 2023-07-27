@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="apSignup" prefHeight="418.0" prefWidth="598.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atm_machine.SignUp">
+   <children>
+      <Label layoutX="48.0" layoutY="214.0" text="Password">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="144.0" text="Username">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfUsername_SignUp" layoutX="287.0" layoutY="138.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="tfPassword_SignUp" layoutX="287.0" layoutY="208.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <Label layoutX="222.0" layoutY="45.0" text="ATM Machine">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="SignUp_btnSignUp" layoutX="212.0" layoutY="330.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="177.0" stylesheets="@style.css" text="Sign Up">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="tfAmountStart" layoutX="287.0" layoutY="271.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="48.0" layoutY="277.0" text="Balance start">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="160.0" layoutY="378.0" text="Already a member?">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="SignUp_btnLogin" layoutX="345.0" layoutY="373.0" mnemonicParsing="false" stylesheets="@style.css" text="Log In!">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
